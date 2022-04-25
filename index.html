@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+    <script>
+        function play(){
+             var audio = document.getElementById("audio");
+             audio.play();
+                       }
+         </script>
 <h1>Make the bird sing</h1>
 <!-- “Listen to the silence. It's tellilng the truth”
 ― Unknown -->
 
-<img src="img/eursian_magpie.jpg" alt="Eurasian Magpie" width="500" height="600">
+<img src="img/eursian_magpie.jpg" alt="Eurasian" width="500" height="600" onclick="play()">
+<audio id="audio" src="straka.wav" ></audio>
 
 </body>
 </html>
